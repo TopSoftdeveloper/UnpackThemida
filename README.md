@@ -1,6 +1,5 @@
-# Unlicense <img src="https://raw.githubusercontent.com/ergrelet/unlicense/dev/assets/unlicense.ico" width="40">
+# ThemidaUnpacker 
 
-[![GitHub release](https://img.shields.io/github/release/ergrelet/unlicense.svg)](https://github.com/ergrelet/unlicense/releases) [![Minimum Python version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/) ![CI status](https://github.com/ergrelet/unlicense/actions/workflows/check.yml/badge.svg?branch=main)
 
 A Python 3 tool to dynamically unpack executables protected with
 Themida/WinLicense 2.x and 3.x.
@@ -28,28 +27,18 @@ Note: You need to use a 32-bit Python interpreter to dump 32-bit executables.
 
 ## How To
 
-### Download
-
-You can either download the PyInstaller-generated executables from the "Releases"
-section or fetch the project with `git` and install it with `pip`:
-```
-pip install git+https://github.com/ergrelet/unlicense.git
-```
-
-### Use
-
 If you don't want to deal the command-line interface (CLI) you can simply
-drag-and-drop the target binary on the appropriate (32-bit or 64-bit) `unlicense`
+drag-and-drop the target binary on the appropriate (32-bit or 64-bit) `ThemidaUnpacker`
 executable (which is available in the "Releases" section).
 
 Otherwise here's what the CLI looks like:
 ```
-unlicense --help
+ThemidaUnpacker --help
 NAME
-    unlicense.exe - Unpack executables protected with Themida/WinLicense 2.x and 3.x
+    ThemidaUnpacker.exe - Unpack executables protected with Themida/WinLicense 2.x and 3.x
 
 SYNOPSIS
-    unlicense.exe PE_TO_DUMP <flags>
+    ThemidaUnpacker.exe PE_TO_DUMP <flags>
 
 DESCRIPTION
     Unpack executables protected with Themida/WinLicense 2.x and 3.x
